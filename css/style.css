@@ -1,0 +1,224 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+.wrapper{
+	width: 70%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+img{
+	width: 100%;
+}
+a{
+	text-decoration: none;
+}
+/* header start */
+header {
+	background-color: #3D5A99;
+	padding: 10px 0;
+}
+
+.left {
+	width: 40%;
+	float: left;
+}
+.left a{}
+.left a h1{
+	font-size: 40px;
+	color: white;
+	margin-top: 18px;
+
+}
+.right {
+	width: 60%;
+	float: right;
+}
+
+.login {
+	float: right;
+	color: white;
+}
+
+.for_login{
+	text-align: left;
+}
+.for_login tr{
+
+}
+.for_login th{
+	font-size: 12px;
+}
+.for_login td{
+}
+.for_login input[type="email"]{
+	width: 142px;
+	margin-right: 10px;
+	padding-bottom: 4px;
+	
+}
+.for_login input[type="password"]{
+	width: 142px;
+	margin-right: 10px;
+	padding-bottom: 4px;
+}
+.for_login a{
+	color: #9cb4d8;
+	font-size: 12px;
+}
+.for_login a:hover{
+	text-decoration: underline;
+}
+.for_login button{
+	background: #4267B2;
+	border: none;
+	border: 1px solid #29487d;
+	padding: 4px 7px;
+	font-weight: 700;
+	font-size: 12px;
+	color: white;
+	cursor: pointer;
+}
+.for_login button:hover{
+	background-color: #3D5A99;
+}
+/* header end */
+
+/* main start */
+main{
+	background: linear-gradient(white, #D3D8E8);
+	padding: 30px 0;
+}
+
+.connect {
+	width: 50%;
+	float: left;
+}
+.connect h2{
+	font-weight: 700;
+	font-size: 20px;
+	color: #0e385f;
+	margin:20px 0 5px;
+	line-height: 1.5;
+}
+.connect img{}
+.account {
+	width: 42.5%;
+	float: right;
+}
+.account h1{
+	font-size: 34px;
+	color: #333;
+	margin-bottom: 10px;
+}
+.account p{
+	font-size: 19px;
+	color: #1d2129;
+	margin: 10px 0;
+}
+.account .form {}
+.account .form table{}
+.account .form table tr{
+	display: block;
+}
+.account .form table th{}
+.account .form table td{}
+.account .form .fname{
+	font-size: 18px;
+    padding: 8px 10px;
+	margin-right: 10px;
+	width: 172px;
+	border: none;
+	border: 1px solid #ccd0d5;
+    border-radius: 5px;
+}
+.account .form .sname{
+	font-size: 18px;
+    padding: 8px 10px;
+	width: 172px;
+	border: none;
+	border: 1px solid #ccd0d5;
+    border-radius: 5px;
+}
+.account .form .sname:last-child{
+	margin-right: 0;
+}
+.account .form .pass{
+	font-size: 18px;
+    padding: 8px 10px;
+    border: none;
+    border: 1px solid #ccd0d5;
+    border-radius: 5px;
+    width: 377px;
+    margin: 5px 0;
+}
+.birth{
+	overflow: hidden;
+}
+.birth p{
+	color: #90949c;
+    font-size: 16px;
+    font-weight: bold;
+}
+.birth ul{}
+.birth ul li{
+	list-style: none;
+	float: left;
+}
+.birth ul li select{
+	font-size: 13px;
+	color: #1c1e21;
+    height: 30px;
+    padding: 5px 15px 5px 5px;
+    background-color: #fff;
+}
+.gender{
+	display: block;
+}
+.gender input{
+	color: #1d2129;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 18px;
+}
+.gender p{
+	font-weight: bold;
+    font-size: 16px;
+    color: #90949c;
+    
+}
+.acc p{
+	font-size: 11px;
+	color: #777;
+}
+.acc p a{
+	color: #385898;
+}
+
+.signup_button button{
+	background: none;
+	border: none;
+	width: 194px;
+	font-size: 19px;
+	font-weight: bold;
+	color: white;
+	cursor: pointer;
+	padding: 7px 20px;
+	background: linear-gradient(#67ae55, #578843);
+	border: 1px solid #3b6e22;
+    border-radius: 5px;
+	box-shadow: 0 1px 1px #a4e388;
+	margin: 15px 0;
+    display: block;
+}
+.page p{
+	font-size: 13px;
+	color: #666;
+    font-weight: bold;
+}
+.page p a{
+	color: #385898;
+    cursor: pointer;
+}
+/* main end */
