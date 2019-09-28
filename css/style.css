@@ -56,12 +56,14 @@ header {
 	width: 142px;
 	margin-right: 10px;
 	padding-bottom: 4px;
+	border: none;
 	
 }
 .for_login input[type="password"]{
 	width: 142px;
 	margin-right: 10px;
 	padding-bottom: 4px;
+	border: none;
 }
 .for_login a{
 	color: #9cb4d8;
